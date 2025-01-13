@@ -1,3 +1,0 @@
-[submodule "survey"]
-	path = survey
-	url = https://github.com/surveyjs/surveyjs-php.git
