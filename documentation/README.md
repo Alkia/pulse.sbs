@@ -33,7 +33,7 @@ git remote add upstream https://github.com/surveyjs/surveyjs-php.git
 3. Branching Strategy
 Create Feature Branches: For each new feature or change, create a new branch from the main (or master) branch. This keeps your changes organized and isolated.
 bash
-git checkout -b feature/my-new-feature
+git checkout -b feature/pulse-survey-feature
 4. Regularly Syncing with Upstream
 Fetch Changes from Upstream: Regularly pull changes from the original repository to keep your fork up to date.
 bash
@@ -42,7 +42,7 @@ git checkout main
 git merge upstream/main
 Rebase Your Feature Branch: Before merging your changes back to main, rebase your feature branch onto the latest main to resolve any conflicts early.
 bash
-git checkout feature/my-new-feature
+git checkout feature/pulse-survey-feature
 git rebase main
 5. Committing Changes
 Commit Often with Clear Messages: Make small, logical commits with descriptive messages that explain what each change does.
