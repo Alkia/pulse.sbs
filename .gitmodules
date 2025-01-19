@@ -1,3 +1,9 @@
 [submodule "survey"]
 	path = survey
 	url = https://github.com/surveyjs/surveyjs-php.git
+[submodule "path/to/external/project"]
+	path = path/to/external/project
+	url = https://github.com/deepseek-ai/DeepSeek-V3.git
+[submodule "deepseek"]
+	path = deepseek
+	url = https://github.com/deepseek-ai/DeepSeek-V3.git
